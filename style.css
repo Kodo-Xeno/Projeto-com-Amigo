@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+header {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    margin: auto
+}
+
+label {
+    cursor: pointer;
+    color: white
+}
+
+.cabeçalho {
+    width: 60px;
+}
+
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #C51111;
+    transition: 0.5s ease-in-out;
+}
+
+.menu {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.caixa {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.logo-mario {
+    height: 150px;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+}
+
+button {
+    color: white;
+    background-color: #C51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #700000;
+    transition: 0.5s ease-in;
+}
+
+.mario-luigi {
+    height: 400px;
+    padding-left: 100px;
+}
+
+.video-mario {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+.zap {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -235px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    transition: left 1s ease-in-out;
+}
+
+#button-form {
+    color: white;
+    background-color: #C51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#button-form:hover {
+    background-color: #700000;
+    transition: 0.5s ease-in;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+textarea {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+
+
+.mascara-form {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(1, 0, 22, 1) 0%, rgba(0, 0, 0, 0.6502976190476191) 99%);
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/*
+    inicial
+    top: 30%;
+    left: -245px;
+    -------------
+    final
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+*/
